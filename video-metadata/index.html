@@ -1,5 +1,6 @@
 
         <script>
+            // currently, these are the video urls. need a database system
             const videoUrls = ["../video/test/video1.mp4","../video/test/video2.mp4","../video/test/video3.mp4","../video/test/video4.mp4","../video/test/video5.mp4","../video/test/video6.mp4"];
             let elapsedTime = 0;
             let currentChannel = 0;
@@ -7,6 +8,7 @@
             const videoPlayer = document.getElementById('videoPlayer');
             const channelDisplay = document.getElementById('channelDisplay');
 
+            // to make sure the video is playing from the last watched time
             setInterval(() => {
                 elapsedTime++;
                 timerElement.textContent = elapsedTime;
@@ -16,6 +18,7 @@
             videoPlayer.currentTime = elapsedTime;
             videoPlayer.play();
 
+            // event listeners for the remote control
             function changeChannel(channel) {
                 currentChannel = channel;
                 videoPlayer.src = videoUrls[currentChannel];
@@ -29,6 +32,7 @@
                 }, 4000);
             }
 
+            // to go to the next channel or the previous channel
             function channelUp() {
                 changeChannel((currentChannel + 1) % videoUrls.length);
             }

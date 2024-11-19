@@ -1,3 +1,4 @@
+// array of video urls, needs to be in a database soon
 const videoUrls = [
     '../video/test/video1.mp4',
     '../video/test/video2.mp4',
@@ -37,11 +38,17 @@ function changeChannel(channel) {
         channelDisplay.style.display = 'none';
     }, 4000);
 }
-
+// go to the next channel, go to the previous channel
 function channelUp() {
     changeChannel((currentChannel + 1) % videoUrls.length);
 }
 
 function channelDown() {
     changeChannel((currentChannel - 1 + videoUrls.length) % videoUrls.length);
+}
+
+
+// track timer
+function trackTimer(){
+    elapsedTime
 }

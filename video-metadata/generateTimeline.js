@@ -2,7 +2,7 @@ const ffmpeg = require('fluent-ffmpeg');
 const fs = require('fs');
 const path = require('path');
 
-const videoFolders = ['../video/test']; // Add more folders as needed
+const videoFolders = ['../video/test']; // add more folders as needed
 
 let timeline = [];
 

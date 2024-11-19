@@ -68,6 +68,7 @@
             font-family: 'VCR';
             src: url('fonts/VCR.ttf') format('truetype');
         }
+        /* seperate that */
     </style>
 </head>
 <body>
