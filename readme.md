@@ -1,10 +1,4 @@
-I'd be glad to create a comprehensive README.md for your Git repository:
-
-**Title**
-
-```
-Simple TV Channel Switcher
-```
+# TVSurfer
 
 **Description**
 
@@ -28,8 +22,7 @@ This code creates a basic web interface that simulates a classic TV experience. 
 1.  Clone this repository.
 2.  Ensure you have a web server environment set up (e.g., Apache, Node.js).
 3.  Place the HTML file (`index.html`) and the JavaScript file (`js/tv.js`) within your web server's document root directory.
-4.  Create a folder named `images` and place the `TV.png` image inside it.
-5.  Create a folder named `video` and place your video files (`video1.mp4`, `video2.mp4`, etc.) within it.
+4.  Create a folder named `video` and place your video files (`video1.mp4`, `video2.mp4`, etc.) within it.
 
 **Usage**
 
