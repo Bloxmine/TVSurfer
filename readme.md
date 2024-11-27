@@ -1,4 +1,5 @@
 # TVSurfer
+![Screenshot](screenshot.jpg)
 
 **Description**
 
@@ -26,14 +27,10 @@ This code creates a basic web interface that simulates a classic TV experience. 
 
 **Usage**
 
-1.  Open the project in your web browser (e.g., `http://localhost/[your_web_server_directory]/index.html`).
+1.  Open the project in your web browser (e.g., `http://localhost/[your_web_server_directory]/index.php`).
 2.  Click the "Channel Up" or "Channel Down" buttons to switch channels.
 
 **Notes**
 
   - The `videoUrls` array in `js/tv.js` currently holds static video paths. A database is considered for the future.
   - The timer functionality is a basic simulation that doesn't currently track actual time. It just counts.
-
-**Contributing**
-
-Feel free to fork this repository and submit pull requests with improvements or additional features.
